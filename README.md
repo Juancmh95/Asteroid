@@ -1,7 +1,12 @@
-# 🪐 Asteroid - Juego hecho con p5.js
+## 🪐 Asteroid - Juego hecho con p5.js
 
 Este es un **juego arcade de disparos** desarrollado por mí en **JavaScript** usando la librería [p5.js](https://p5js.org/).  
 El objetivo es pilotar una nave, destruir asteroides y sobrevivir el mayor tiempo posible mientras la dificultad aumenta progresivamente.
+
+---
+
+## 🚀 Demo en línea
+👉 [Jugar ahora en GitHub Pages](https://juancmh95.github.io/Asteroid/)
 
 ---
 
@@ -9,7 +14,7 @@ El objetivo es pilotar una nave, destruir asteroides y sobrevivir el mayor tiemp
 - Sistema de **marcador (Score)** y **mejor puntaje (High Score)**.
 - Dificultad progresiva: los asteroides aparecen con mayor frecuencia y velocidad.
 - Colisiones entre balas, asteroides y nave.
-- Diseño retro con gráficos simples y dinámicos.
+- Diseño retro con gráficos simples y dinámicos. 
 
 ---
 
@@ -33,5 +38,3 @@ El objetivo es pilotar una nave, destruir asteroides y sobrevivir el mayor tiemp
    ```bash
    git clone https://github.com/tu-usuario/asteroid.git
    cd asteroid
-2. Abre index.html en tu navegador o usa la extensión Live Server en VS Code para mejor experiencia.
-
