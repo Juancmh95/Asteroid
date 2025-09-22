@@ -1,0 +1,66 @@
+/* Variables de color */
+:root{
+  --bg:#0b0b0f;
+  --fg:#e6e6f0;
+  --accent:#7c5cff;
+}
+
+/* Reset simple */
+*{ box-sizing:border-box; }
+
+html,body{
+  height:100%;
+  margin:0;
+  /* Fondo degradado */
+  background: radial-gradient(1200px 800px at 50% -10%, #101020 0%, var(--bg) 60%);
+  color:var(--fg);
+  font-family: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+}
+
+/* Contenedor principal */
+.page{
+  min-height:100%;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  justify-content:center;
+  gap:12px;
+  padding:24px;
+}
+
+/* Título */
+.title{
+  margin:0;
+  letter-spacing:2px;
+  color:var(--accent);
+  text-shadow: 0 2px 12px rgba(124,92,255,.45);
+  font-weight:700;
+}
+
+/* Contenedor del canvas */
+#game{
+  display:inline-block;
+  padding:8px;
+  background:rgba(255,255,255,.04);
+  border:1px solid rgba(255,255,255,.08);
+  border-radius:14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.35);
+}
+
+/* Estilo para el canvas */
+.game-canvas{
+  display:block;
+  border-radius:10px;
+  box-shadow: inset 0 0 0 2px rgba(255,255,255,.06);
+}
+
+/* Texto de ayuda */
+.hint{
+  margin:0;
+  opacity:.7;
+  font-size:.9rem;
+  text-align:center;
+}
+
+/* Cursor tipo "mira" en el canvas */
+#game, .game-canvas{ cursor: crosshair; }
