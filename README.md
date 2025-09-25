@@ -1,40 +1,42 @@
-## 🪐 Asteroid - Juego hecho con p5.js
+## 🪐 Asteroid - Game built with p5.js
 
-Este es un **juego arcade de disparos** desarrollado por mí en **JavaScript** usando la librería [p5.js](https://p5js.org/).  
-El objetivo es pilotar una nave, destruir asteroides y sobrevivir el mayor tiempo posible mientras la dificultad aumenta progresivamente.
-
----
-
-## 🚀 Demo en línea
-👉 [Jugar ahora en GitHub Pages](https://juancmh95.github.io/Asteroid/)
+This is a **shooting arcade game** developed by me in **JavaScript** using the [p5.js](https://p5js.org/) library.  
+The goal is to pilot a spaceship, destroy asteroids, and survive as long as possible while the difficulty progressively increases.
 
 ---
 
-## 🎮 Características
-- Sistema de **marcador (Score)** y **mejor puntaje (High Score)**.
-- Dificultad progresiva: los asteroides aparecen con mayor frecuencia y velocidad.
-- Colisiones entre balas, asteroides y nave.
-- Diseño retro con gráficos simples y dinámicos. 
+## 🚀 Live Demo
+👉 [Play now on GitHub Pages](https://juancmh95.github.io/Asteroid/)
 
 ---
 
-## 🕹️ Controles
-- **Clic** → Disparar.
-- **Mover el mouse** → Mover la nave.
-- **Cualquier tecla** → Iniciar el juego.
+## 🎮 Features
+- **Score system** and **High Score tracking**.
+- Progressive difficulty: asteroids appear more frequently and move faster over time.
+- Collision detection between bullets, asteroids, and the spaceship.
+- Retro design with simple, dynamic graphics.
 
 ---
 
-## 📂 Archivos principales
-- `index.html` → estructura del juego.
-- `style.css` → estilos visuales.
-- `sketch.js` → lógica del juego en JavaScript con p5.js.
-- `.gitignore` → exclusión de archivos innecesarios en GitHub.
+## 🕹️ Controls
+- **Click** → Shoot  
+- **Move the mouse** → Move the spaceship  
+- **Any key** → Start the game  
 
 ---
 
-## 🚀 Cómo ejecutarlo
-1. Clona este repositorio:
+## 📂 Main Files
+- `index.html` → game structure  
+- `style.css` → visual styles  
+- `sketch.js` → game logic in JavaScript with p5.js  
+- `.gitignore` → excludes unnecessary files from GitHub  
+
+---
+
+## ⚙️ How to Run
+1. Clone this repository:
    ```bash
-   git clone https://github.com/tu-usuario/asteroid.git
+   git clone https://github.com/your-username/asteroid.git
    cd asteroid
+2.Open index.html in your browser or use the Live Server extension in VS Code for a better experience.
+
